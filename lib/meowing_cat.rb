@@ -4,7 +4,9 @@ class Cat
   attr_accessor :name
   def meow= (cat_meow)
     @meow= cat_meow
-   puts "meow!"
+   puts "meow!" def meow
+#    @meow
+#  end
   end
 end
 
@@ -25,7 +27,5 @@ end
   
 #  def meow= (cat_meow)
 #   
-#  def meow
-#    @meow
-#  end
+# 
 #end
